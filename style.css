@@ -1,0 +1,64 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.movie {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.movie img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.movie h2 {
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.5;
+    color: #ddd;
+}
+
+/* Full content initially hidden */
+.more-text {
+    display: none;
+}
+
+/* Read More button */
+.read-more {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #b20710;
+}
+
+summary {
+    color:deepskyblue;
+    cursor: pointer;
+    font-weight: bold;
+}
